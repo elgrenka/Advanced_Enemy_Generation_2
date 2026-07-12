@@ -995,7 +995,6 @@ GameObject:
   m_Component:
   - component: {fileID: 985280895}
   - component: {fileID: 985280897}
-  - component: {fileID: 985280896}
   m_Layer: 0
   m_Name: SpawnPoints
   m_TagString: Untagged
@@ -1022,18 +1021,6 @@ Transform:
   - {fileID: 1459955561}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &985280896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985280894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b2faf2eab6744fb90138ac43cd7c797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioOnEnable
 --- !u!82 &985280897
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1488,7 +1475,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1586777246}
   - component: {fileID: 1586777247}
-  - component: {fileID: 1586777248}
   m_Layer: 0
   m_Name: Targets
   m_TagString: Untagged
@@ -1527,7 +1513,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d22ccb4cc1d971a4d984284404bf5df4, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -1612,18 +1598,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1586777248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586777245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b2faf2eab6744fb90138ac43cd7c797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioOnEnable
 --- !u!1 &1669730195
 GameObject:
   m_ObjectHideFlags: 0
